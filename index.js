@@ -12,8 +12,8 @@ const success = (position) => {
     });
     latitude = position.coords.latitude;
     longitude = position.coords.longitude;
-    document.cookie = `latitude=${latitude}; path=/weather.html`;
-    document.cookie = `longitude=${longitude}; path=/weather.html`;
+    document.cookie = `latitude=${latitude}; path=/youtube_september/weather.html`;
+    document.cookie = `longitude=${longitude}; path=/youtube_september/weather.html`;
     setTimeout(() => {
         window.location.href = "https://vikas1509.github.io/youtube_september/weather.html"
         console.log( window.location.href + "weather-details.html");
