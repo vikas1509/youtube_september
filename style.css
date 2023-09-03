@@ -1,0 +1,42 @@
+:root {
+    --background: #360268;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: var(--background);
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: 95vh;
+  }
+  
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 68px;
+    color: white;
+  }
+  body *{
+    opacity: 1;
+    transition: opacity 1s ease;
+  }
+  .fade-out{
+      opacity: 0;
+  }
+  #fetch-data {
+    margin-top: 20px;
+    background-color: rgb(224, 224, 224);
+    color: grey;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    width: 20%;
+    border: none;
+    padding: 10px;
+  }
